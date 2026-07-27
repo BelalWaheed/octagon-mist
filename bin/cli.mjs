@@ -11,7 +11,7 @@ const pkgRoot = resolve(__dirname, '..');
 const args = process.argv.slice(2);
 const command = args[0] || 'help';
 
-const PKG = '@belal/octagon-mist';
+const PKG = '@belalwaheed/octagon-mist';
 
 console.log(`\n🎨 ${PKG} — Filter Octagon / Minimal Mist Design System\n`);
 

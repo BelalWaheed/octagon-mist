@@ -10,7 +10,7 @@ Everything is generated from one source of truth, so CSS, Tailwind v3/v4, SCSS, 
 ## Install
 
 ```bash
-npm install @belal/octagon-mist
+npm install @belalwaheed/octagon-mist
 ```
 
 ## Quick start
@@ -18,33 +18,33 @@ npm install @belal/octagon-mist
 ### CSS / Vite / Webpack / Next.js
 
 ```js
-import '@belal/octagon-mist/css';
+import '@belalwaheed/octagon-mist/css';
 ```
 
 ### Tailwind v4
 
 ```css
-@import "@belal/octagon-mist/tailwind/v4";
+@import "@belalwaheed/octagon-mist/tailwind/v4";
 ```
 
 ### Tailwind v3
 
 ```js
 // tailwind.config.js
-const octagonMist = require('@belal/octagon-mist/tailwind/v3');
+const octagonMist = require('@belalwaheed/octagon-mist/tailwind/v3');
 module.exports = { presets: [octagonMist] };
 ```
 
 ### SCSS
 
 ```scss
-@import "@belal/octagon-mist/scss";
+@import "@belalwaheed/octagon-mist/scss";
 ```
 
 ### HTML (no bundler)
 
 ```html
-<link rel="stylesheet" href="node_modules/@belal/octagon-mist/css/tokens.css">
+<link rel="stylesheet" href="node_modules/@belalwaheed/octagon-mist/css/tokens.css">
 ```
 
 ### Theme switching
@@ -64,8 +64,8 @@ document.documentElement.dataset.theme = 'light'; // or 'dark'
 Copy `tokens.css` directly into any project:
 
 ```bash
-npx @belal/octagon-mist init              # copies to ./src/styles/tokens.css
-npx @belal/octagon-mist init ./public/css  # copies to a custom folder
+npx @belalwaheed/octagon-mist init              # copies to ./src/styles/tokens.css
+npx @belalwaheed/octagon-mist init ./public/css  # copies to a custom folder
 ```
 
 ## File map

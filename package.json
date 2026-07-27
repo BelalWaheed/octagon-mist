@@ -1,5 +1,5 @@
 {
-  "name": "@belal/octagon-mist",
+  "name": "@belalwaheed/octagon-mist",
   "version": "1.0.0",
   "description": "Framework-agnostic design system with Filter Octagon (dark) and Minimal Mist (light) themes — OKLCH color ramps, semantic tokens, and 8 output formats",
   "type": "module",
@@ -38,11 +38,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/belal/octagon-mist.git"
+    "url": "https://github.com/BelalWaheed/octagon-mist.git"
   },
-  "homepage": "https://github.com/belal/octagon-mist#readme",
+  "homepage": "https://github.com/BelalWaheed/octagon-mist#readme",
   "bugs": {
-    "url": "https://github.com/belal/octagon-mist/issues"
+    "url": "https://github.com/BelalWaheed/octagon-mist/issues"
   },
   "keywords": [
     "design-system",
@@ -59,6 +59,6 @@
     "figma",
     "color-system"
   ],
-  "author": "belal",
+  "author": "BelalWaheed",
   "license": "MIT"
 }
