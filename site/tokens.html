@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Token Explorer — Octagon Mist Design System</title>
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="assets/site.css">
+  <style>
+    .swatch-row { display: grid; grid-template-columns: repeat(11, 1fr); gap: 6px; margin-bottom: var(--space-4); }
+    .swatch { border-radius: var(--radius-sm); aspect-ratio: 1; display: flex; align-items: flex-end; padding: 4px; font-size: 10px; font-family: var(--font-mono); border: 1px solid var(--border-subtle); cursor: pointer; transition: transform 120ms ease; }
+    .swatch:hover { transform: scale(1.08); z-index: 5; }
+    .ramp-label { font-size: 13px; font-weight: 700; text-transform: capitalize; margin: var(--space-4) 0 var(--space-2); color: var(--text-primary); }
+    
+    .scale-row { display: flex; align-items: center; gap: var(--space-4); margin-bottom: var(--space-3); font-family: var(--font-mono); font-size: 13px; }
+    .scale-box { background: var(--status-info-solid-bg); }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="site-header">
+    <div class="site-container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-icon"></span>
+        <span>Octagon Mist</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="components.html">Components</a></li>
+          <li><a href="docs.html">Docs</a></li>
+          <li><a href="tokens.html" class="active">Tokens</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="theme-toggle-btn">
+          <button data-theme-btn="dark" class="active">Dark</button>
+          <button data-theme-btn="light">Light</button>
+        </div>
+        <a href="https://github.com/BelalWaheed/octagon-mist" target="_blank" class="btn btn-secondary" style="padding: 6px 12px; font-size: 13px;">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Tokens Content Layout -->
+  <div class="site-container library-layout">
+    
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar-nav">
+      <div class="sidebar-group">
+        <div class="sidebar-title">Primitives</div>
+        <a href="#color-ramps" class="sidebar-item active">Color Ramps (OKLCH)</a>
+      </div>
+
+      <div class="sidebar-group">
+        <div class="sidebar-title">Scales</div>
+        <a href="#radius-scale" class="sidebar-item">Border Radius</a>
+        <a href="#elevation-scale" class="sidebar-item">Elevation &amp; Shadows</a>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main>
+      
+      <!-- COLOR RAMPS -->
+      <section id="color-ramps" class="component-section">
+        <h2>OKLCH Primitive Color Ramps</h2>
+        <p class="section-desc">12 color families across 11 lightness steps (50 to 950). Hover over any swatch to see hex values.</p>
+        <div id="ramps-container"></div>
+      </section>
+
+      <!-- RADIUS SCALE -->
+      <section id="radius-scale" class="component-section">
+        <h2>Border Radius Scale</h2>
+        <p class="section-desc">Visual scale of rounded corners defined in <code>--radius-*</code>.</p>
+        
+        <div class="preview-box" style="flex-direction: column; align-items: stretch; gap: var(--space-3);">
+          <div class="scale-row"><span style="width: 100px;">--radius-xs</span> <div style="width: 60px; height: 36px; border-radius: var(--radius-xs); border: 2px solid var(--border-focus); background: var(--interaction-selection-bg);"></div> <span>4px</span></div>
+          <div class="scale-row"><span style="width: 100px;">--radius-sm</span> <div style="width: 60px; height: 36px; border-radius: var(--radius-sm); border: 2px solid var(--border-focus); background: var(--interaction-selection-bg);"></div> <span>6px</span></div>
+          <div class="scale-row"><span style="width: 100px;">--radius-md</span> <div style="width: 60px; height: 36px; border-radius: var(--radius-md); border: 2px solid var(--border-focus); background: var(--interaction-selection-bg);"></div> <span>8px</span></div>
+          <div class="scale-row"><span style="width: 100px;">--radius-lg</span> <div style="width: 60px; height: 36px; border-radius: var(--radius-lg); border: 2px solid var(--border-focus); background: var(--interaction-selection-bg);"></div> <span>12px</span></div>
+          <div class="scale-row"><span style="width: 100px;">--radius-xl</span> <div style="width: 60px; height: 36px; border-radius: var(--radius-xl); border: 2px solid var(--border-focus); background: var(--interaction-selection-bg);"></div> <span>16px</span></div>
+          <div class="scale-row"><span style="width: 100px;">--radius-full</span> <div style="width: 60px; height: 36px; border-radius: var(--radius-full); border: 2px solid var(--border-focus); background: var(--interaction-selection-bg);"></div> <span>9999px</span></div>
+        </div>
+      </section>
+
+      <!-- ELEVATION SCALE -->
+      <section id="elevation-scale" class="component-section">
+        <h2>Shadow &amp; Elevation Scale</h2>
+        <p class="section-desc">Elevation shadows tuned independently for dark mode (glow/hairline) and light mode (classic depth).</p>
+        
+        <div class="preview-box" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: var(--space-4);">
+          <div style="background: var(--background-surface); padding: var(--space-4); border-radius: var(--radius-md); box-shadow: var(--shadow-xs); text-align: center;"><code>--shadow-xs</code></div>
+          <div style="background: var(--background-surface); padding: var(--space-4); border-radius: var(--radius-md); box-shadow: var(--shadow-sm); text-align: center;"><code>--shadow-sm</code></div>
+          <div style="background: var(--background-surface); padding: var(--space-4); border-radius: var(--radius-md); box-shadow: var(--shadow-md); text-align: center;"><code>--shadow-md</code></div>
+          <div style="background: var(--background-surface); padding: var(--space-4); border-radius: var(--radius-md); box-shadow: var(--shadow-lg); text-align: center;"><code>--shadow-lg</code></div>
+          <div style="background: var(--background-surface); padding: var(--space-4); border-radius: var(--radius-md); box-shadow: var(--shadow-xl); text-align: center;"><code>--shadow-xl</code></div>
+          <div style="background: var(--background-surface); padding: var(--space-4); border-radius: var(--radius-md); box-shadow: var(--shadow-2xl); text-align: center;"><code>--shadow-2xl</code></div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="site-container footer-inner">
+      <div>
+        <strong>@belalwaheed/octagon-mist</strong> — Token Explorer
+      </div>
+      <div class="footer-links">
+        <a href="https://www.npmjs.com/package/@belalwaheed/octagon-mist" target="_blank">npm</a>
+        <a href="https://github.com/BelalWaheed/octagon-mist" target="_blank">GitHub</a>
+        <a href="docs.html">Docs</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/site.js"></script>
+  <script>
+    // Fetch and render ramps from tokens/primitives.json
+    fetch('../tokens/primitives.json')
+      .then(res => res.json())
+      .then(P => {
+        const container = document.getElementById('ramps-container');
+        const steps = ['50', '100', '200', '300', '400', '500', '600', '700', '800', '900', '950'];
+        
+        for (const [name, ramp] of Object.entries(P)) {
+          const label = document.createElement('div');
+          label.className = 'ramp-label';
+          label.textContent = name;
+          container.appendChild(label);
+
+          const row = document.createElement('div');
+          row.className = 'swatch-row';
+
+          for (const step of steps) {
+            const hex = ramp[step] ? ramp[step].hex : '#000';
+            const sw = document.createElement('div');
+            sw.className = 'swatch';
+            sw.style.background = hex;
+            sw.style.color = parseInt(step, 10) >= 500 ? '#fff' : '#000';
+            sw.title = `${name}-${step}: ${hex}`;
+            sw.textContent = step;
+            row.appendChild(sw);
+          }
+          container.appendChild(row);
+        }
+      });
+  </script>
+</body>
+</html>

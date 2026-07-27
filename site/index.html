@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Octagon Mist — Filter Octagon & Minimal Mist Design System</title>
+  <meta name="description" content="Framework-agnostic design system with Filter Octagon (dark) and Minimal Mist (light) themes in OKLCH color ramps, semantic tokens, and 8 output formats.">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="site-header">
+    <div class="site-container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-icon"></span>
+        <span>Octagon Mist</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="components.html">Components</a></li>
+          <li><a href="docs.html">Docs</a></li>
+          <li><a href="tokens.html">Tokens</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="theme-toggle-btn">
+          <button data-theme-btn="dark" class="active">Dark</button>
+          <button data-theme-btn="light">Light</button>
+        </div>
+        <a href="https://github.com/BelalWaheed/octagon-mist" target="_blank" class="btn btn-secondary" style="padding: 6px 12px; font-size: 13px;">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="site-container">
+    <section class="hero">
+      <div class="badge-tag">
+        <span>✨ Version 1.0.0 Live on npm</span>
+      </div>
+      <h1>Filter Octagon &amp; Minimal Mist</h1>
+      <p class="lead">
+        A framework-agnostic design system with two themes that share one identity. Built with OKLCH color ramps, semantic tokens, and 8 multi-format build outputs.
+      </p>
+
+      <div class="hero-cta">
+        <a href="components.html" class="btn btn-primary">Explore Components &rarr;</a>
+        <a href="docs.html" class="btn btn-secondary">Get Started</a>
+      </div>
+
+      <!-- Quick Terminal Install Box -->
+      <div style="max-width: 540px; margin: var(--space-10) auto 0;">
+        <div class="code-box">
+          <button class="copy-btn">Copy</button>
+          <code>npm install @belalwaheed/octagon-mist</code>
+        </div>
+        <div style="font-size: 12px; color: var(--text-tertiary); margin-top: var(--space-2);">
+          Or copy directly into your project: <code>npx @belalwaheed/octagon-mist init</code>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Grid -->
+    <section>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="icon">🎨</div>
+          <h3>Two Themes, One Identity</h3>
+          <p>Filter Octagon (warm, rich dark mode based on Monokai Pro) and Minimal Mist (clean, low-noise light mode) share the exact same 12-color hue ramps.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">⚡</div>
+          <h3>8 Output Formats</h3>
+          <p>Exported out-of-the-box for plain CSS variables, Tailwind v4 (@theme), Tailwind v3, SCSS, Style Dictionary, Figma Variables, and JSON.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">🏗️</div>
+          <h3>3-Tier Token Architecture</h3>
+          <p>Strict separation between Primitives, Semantics, and Components. Change one semantic mapping and every component updates instantly.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">🚀</div>
+          <h3>Zero Dependencies</h3>
+          <p>Pure CSS custom properties with zero external JavaScript runtimes or build lock-ins. Works seamlessly with React, Vue, Svelte, or plain HTML.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="site-container footer-inner">
+      <div>
+        <strong>@belalwaheed/octagon-mist</strong> — Open Source MIT License
+      </div>
+      <div class="footer-links">
+        <a href="https://www.npmjs.com/package/@belalwaheed/octagon-mist" target="_blank">npm</a>
+        <a href="https://github.com/BelalWaheed/octagon-mist" target="_blank">GitHub</a>
+        <a href="docs.html">Docs</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/site.js"></script>
+</body>
+</html>

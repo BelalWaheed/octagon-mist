@@ -27,20 +27,22 @@
     "style-dictionary",
     "figma",
     "bin",
+    "site",
     "README.md"
   ],
   "scripts": {
     "generate": "node scripts/generate-colors.mjs",
     "build": "node scripts/build-outputs.mjs",
     "preview": "node scripts/build-preview.mjs",
-    "all": "node scripts/generate-colors.mjs && node scripts/build-outputs.mjs && node scripts/build-preview.mjs",
+    "site": "node scripts/build-site.mjs",
+    "all": "node scripts/generate-colors.mjs && node scripts/build-outputs.mjs && node scripts/build-preview.mjs && node scripts/build-site.mjs",
     "prepublishOnly": "npm run all"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BelalWaheed/octagon-mist.git"
   },
-  "homepage": "https://github.com/BelalWaheed/octagon-mist#readme",
+  "homepage": "https://octagon-mist.vercel.app",
   "bugs": {
     "url": "https://github.com/BelalWaheed/octagon-mist/issues"
   },

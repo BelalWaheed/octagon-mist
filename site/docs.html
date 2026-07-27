@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentation — Octagon Mist Design System</title>
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="site-header">
+    <div class="site-container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-icon"></span>
+        <span>Octagon Mist</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="components.html">Components</a></li>
+          <li><a href="docs.html" class="active">Docs</a></li>
+          <li><a href="tokens.html">Tokens</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="theme-toggle-btn">
+          <button data-theme-btn="dark" class="active">Dark</button>
+          <button data-theme-btn="light">Light</button>
+        </div>
+        <a href="https://github.com/BelalWaheed/octagon-mist" target="_blank" class="btn btn-secondary" style="padding: 6px 12px; font-size: 13px;">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Docs Content Layout -->
+  <div class="site-container library-layout">
+    
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar-nav">
+      <div class="sidebar-group">
+        <div class="sidebar-title">Getting Started</div>
+        <a href="#installation" class="sidebar-item active">Installation</a>
+        <a href="#npx-cli" class="sidebar-item">npx CLI Setup</a>
+      </div>
+
+      <div class="sidebar-group">
+        <div class="sidebar-title">Framework Setup</div>
+        <a href="#react-vite" class="sidebar-item">React / Vite / Next.js</a>
+        <a href="#tailwind-v4" class="sidebar-item">Tailwind v4 (@theme)</a>
+        <a href="#tailwind-v3" class="sidebar-item">Tailwind v3 (JS Config)</a>
+        <a href="#scss" class="sidebar-item">SCSS / Sass</a>
+        <a href="#plain-html" class="sidebar-item">Plain HTML</a>
+      </div>
+
+      <div class="sidebar-group">
+        <div class="sidebar-title">Core Concepts</div>
+        <a href="#theme-switching" class="sidebar-item">Theme Switching</a>
+        <a href="#architecture" class="sidebar-item">3-Tier Architecture</a>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main>
+      
+      <!-- INSTALLATION -->
+      <section id="installation" class="component-section">
+        <h2>Installation</h2>
+        <p class="section-desc">Install the package into your project using npm or your favorite package manager.</p>
+        
+        <div class="code-box">
+          <button class="copy-btn">Copy</button>
+          <pre><code>npm install @belalwaheed/octagon-mist</code></pre>
+        </div>
+      </section>
+
+      <!-- NPX CLI -->
+      <section id="npx-cli" class="component-section">
+        <h2>npx CLI Setup</h2>
+        <p class="section-desc">If you don't want to install an npm package and just want the CSS file in your folder:</p>
+        
+        <div class="code-box">
+          <button class="copy-btn">Copy</button>
+          <pre><code># Copies tokens.css directly to ./src/styles/tokens.css
+npx @belalwaheed/octagon-mist init
+
+# Or specify a custom target directory:
+npx @belalwaheed/octagon-mist init ./public/css</code></pre>
+        </div>
+      </section>
+
+      <!-- REACT / VITE -->
+      <section id="react-vite" class="component-section">
+        <h2>React / Vite / Next.js Setup</h2>
+        <p class="section-desc">Import the CSS tokens entrypoint directly in your app root.</p>
+        
+        <div class="code-box">
+          <button class="copy-btn">Copy</button>
+          <pre><code>// In main.jsx, index.js, or _app.js
+import '@belalwaheed/octagon-mist/css';</code></pre>
+        </div>
+      </section>
+
+      <!-- TAILWIND V4 -->
+      <section id="tailwind-v4" class="component-section">
+        <h2>Tailwind v4 (@theme) Setup</h2>
+        <p class="section-desc">Import the v4 theme file into your main CSS stylesheet.</p>
+        
+        <div class="code-box">
+          <button class="copy-btn">Copy</button>
+          <pre><code>/* In main.css or globals.css */
+@import "@belalwaheed/octagon-mist/tailwind/v4";</code></pre>
+        </div>
+      </section>
+
+      <!-- TAILWIND V3 -->
+      <section id="tailwind-v3" class="component-section">
+        <h2>Tailwind v3 (Config) Setup</h2>
+        <p class="section-desc">Require the pre-built Tailwind v3 config preset in your `tailwind.config.js`.</p>
+        
+        <div class="code-box">
+          <button class="copy-btn">Copy</button>
+          <pre><code>// tailwind.config.js
+const octagonMist = require('@belalwaheed/octagon-mist/tailwind/v3');
+
+module.exports = {
+  presets: [octagonMist],
+  // ... rest of your config
+};</code></pre>
+        </div>
+      </section>
+
+      <!-- SCSS -->
+      <section id="scss" class="component-section">
+        <h2>SCSS / Sass Setup</h2>
+        <p class="section-desc">Import SCSS variables into your stylesheet.</p>
+        
+        <div class="code-box">
+          <button class="copy-btn">Copy</button>
+          <pre><code>// In your main .scss file
+@import "@belalwaheed/octagon-mist/scss";</code></pre>
+        </div>
+      </section>
+
+      <!-- PLAIN HTML -->
+      <section id="plain-html" class="component-section">
+        <h2>Plain HTML Setup</h2>
+        <p class="section-desc">Link directly to the CSS tokens file in your HTML header.</p>
+        
+        <div class="code-box">
+          <button class="copy-btn">Copy</button>
+          <pre><code>&lt;link rel="stylesheet" href="node_modules/@belalwaheed/octagon-mist/css/tokens.css"&gt;</code></pre>
+        </div>
+      </section>
+
+      <!-- THEME SWITCHING -->
+      <section id="theme-switching" class="component-section">
+        <h2>Theme Switching</h2>
+        <p class="section-desc">Toggle between Filter Octagon (Dark) and Minimal Mist (Light) using the <code>data-theme</code> attribute on <code>&lt;html&gt;</code>.</p>
+        
+        <div class="code-box">
+          <button class="copy-btn">Copy</button>
+          <pre><code>&lt;!-- Dark Theme (Filter Octagon) --&gt;
+&lt;html data-theme="dark"&gt;
+
+&lt;!-- Light Theme (Minimal Mist) --&gt;
+&lt;html data-theme="light"&gt;
+
+&lt;script&gt;
+  // Toggle at runtime with 1 line of JS:
+  document.documentElement.dataset.theme = 'light'; // or 'dark'
+&lt;/script&gt;</code></pre>
+        </div>
+      </section>
+
+      <!-- ARCHITECTURE -->
+      <section id="architecture" class="component-section">
+        <h2>3-Tier Architecture</h2>
+        <p class="section-desc">Every token in the system is structured across 3 distinct layers:</p>
+        
+        <div style="background: var(--background-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-6);">
+          <ol style="margin: 0; padding-left: var(--space-6); color: var(--text-secondary); font-size: 14px; line-height: 1.8;">
+            <li><strong>Primitives</strong> — Raw, theme-agnostic values (e.g. <code>graphite-800</code>, <code>space-4</code>, <code>radius-md</code>).</li>
+            <li><strong>Semantic Tokens</strong> — Primitives assigned a specific job (e.g. <code>background.surface</code>, <code>text.primary</code>). These change per theme.</li>
+            <li><strong>Component Tokens</strong> — Specific mappings assigned to component states (e.g. Button hover overlay).</li>
+          </ol>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="site-container footer-inner">
+      <div>
+        <strong>@belalwaheed/octagon-mist</strong> — Documentation
+      </div>
+      <div class="footer-links">
+        <a href="https://www.npmjs.com/package/@belalwaheed/octagon-mist" target="_blank">npm</a>
+        <a href="https://github.com/BelalWaheed/octagon-mist" target="_blank">GitHub</a>
+        <a href="docs.html">Docs</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/site.js"></script>
+</body>
+</html>

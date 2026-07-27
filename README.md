@@ -1,6 +1,19 @@
 # Octagon Mist — Filter Octagon / Minimal Mist Design System
 
+[![npm version](https://img.shields.io/npm/v/@belalwaheed/octagon-mist.svg?color=cb3837)](https://www.npmjs.com/package/@belalwaheed/octagon-mist)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Website](https://img.shields.io/badge/Website-Octagon%20Mist-4f46e5)](https://octagon-mist.vercel.app)
+
 A framework-agnostic design system with two themes that share one identity:
+
+- 📖 **Documentation Site & Demo**: [https://octagon-mist.vercel.app](https://octagon-mist.vercel.app)
+- 🎨 **Interactive Component Showcase**: [https://octagon-mist.vercel.app/components.html](https://octagon-mist.vercel.app/components.html)
+- 📦 **npm Package**: [https://www.npmjs.com/package/@belalwaheed/octagon-mist](https://www.npmjs.com/package/@belalwaheed/octagon-mist)
+- 💻 **GitHub Repository**: [https://github.com/BelalWaheed/octagon-mist](https://github.com/BelalWaheed/octagon-mist)
+
+---
+
+## Themes
 
 - **Dark — Filter Octagon** — warm, rich, built for long coding sessions, in the spirit of Monokai Pro's Filter Octagon.
 - **Light — Minimal Mist** — clean, soft-white, calm-gray, low visual noise.
@@ -61,7 +74,7 @@ document.documentElement.dataset.theme = 'light'; // or 'dark'
 
 ## npx CLI
 
-Copy `tokens.css` directly into any project:
+Copy `tokens.css` directly into any project without installing npm packages:
 
 ```bash
 npx @belalwaheed/octagon-mist init              # copies to ./src/styles/tokens.css
@@ -74,41 +87,29 @@ npx @belalwaheed/octagon-mist init ./public/css  # copies to a custom folder
 octagon-mist/
 ├── README.md
 ├── package.json
+├── vercel.json                    ← Vercel deployment config
 ├── bin/
 │   └── cli.mjs                    ← npx CLI tool
-├── docs/                          ← full spec, read 00 → 11 in order
-│   ├── 00-philosophy.md
-│   ├── 01-color-system.md
-│   ├── 02-typography.md
-│   ├── 03-spacing-layout.md
-│   ├── 04-radius-shadow-elevation.md
-│   ├── 05-components.md
-│   ├── 06-icons-motion.md
-│   ├── 07-markdown-syntax-highlighting.md
-│   ├── 08-accessibility.md
-│   ├── 09-multi-format-tokens.md
-│   ├── 10-app-examples.md
-│   └── 11-extras.md
+├── site/                          ← live website & component library
+│   ├── index.html                 ← landing page
+│   ├── components.html            ← component showcase
+│   ├── docs.html                  ← integration guides
+│   ├── tokens.html                ← token explorer
+│   └── assets/
+├── docs/                          ← full spec documentation
 ├── scripts/                       ← build pipeline
-│   ├── generate-colors.mjs        ← edit seed colors here, then re-run
-│   ├── build-outputs.mjs          ← generates all output formats
-│   └── build-preview.mjs          ← generates preview gallery
 ├── tokens/
-│   ├── primitives.json            ← every color ramp, hex/rgb/hsl/oklch × 50–950
+│   ├── primitives.json            ← color ramps
 │   └── semantic.json              ← light + dark mapping
 ├── css/
-│   └── tokens.css                 ← CSS custom properties (drop-in, any framework)
+│   └── tokens.css                 ← CSS custom properties
 ├── tailwind/
-│   ├── theme.v4.css               ← Tailwind v4 (@theme, CSS-first)
-│   └── tailwind.config.js         ← Tailwind v3
+│   ├── theme.v4.css
+│   └── tailwind.config.js
 ├── scss/
 │   └── _variables.scss
 ├── style-dictionary/
-│   └── tokens.style-dictionary.json
-├── figma/
-│   └── figma-variables.json
-└── preview/
-    └── index.html                 ← interactive component gallery, both themes
+└── figma/
 ```
 
 ## Development
@@ -116,26 +117,8 @@ octagon-mist/
 Rebuild everything from the seed colors:
 
 ```bash
-npm run all        # generate → build → preview
+npm run all        # generate → build → preview → site
 ```
-
-Or run each step individually:
-
-```bash
-npm run generate   # regenerate tokens/primitives.json from OKLCH seeds
-npm run build      # generate CSS, Tailwind, SCSS, Style Dictionary, Figma outputs
-npm run preview    # generate preview/index.html
-```
-
-## Where to start reading
-
-Read `docs/00-philosophy.md` first — it explains the three-tier token architecture (primitive → semantic → component). Then `docs/01-color-system.md` and `docs/05-components.md` cover the two things you'll touch most often.
-
-## About the palette
-
-The dark theme's seed colors were measured from a real Monokai Pro Filter Octagon export, not approximated. One color (Sapphire, used for `info`) is synthesized since Filter Octagon's native palette doesn't include a blue. Full reasoning is in `docs/01-color-system.md`.
-
-Contrast for every text/background and button pairing was verified against the WCAG formula — see `docs/08-accessibility.md` for measured ratios.
 
 ## License
 

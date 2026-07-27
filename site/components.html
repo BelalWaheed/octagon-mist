@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Component Library — Octagon Mist Design System</title>
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="site-header">
+    <div class="site-container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-icon"></span>
+        <span>Octagon Mist</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="components.html" class="active">Components</a></li>
+          <li><a href="docs.html">Docs</a></li>
+          <li><a href="tokens.html">Tokens</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="theme-toggle-btn">
+          <button data-theme-btn="dark" class="active">Dark</button>
+          <button data-theme-btn="light">Light</button>
+        </div>
+        <a href="https://github.com/BelalWaheed/octagon-mist" target="_blank" class="btn btn-secondary" style="padding: 6px 12px; font-size: 13px;">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Component Library Layout -->
+  <div class="site-container library-layout">
+    
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar-nav">
+      <div class="sidebar-group">
+        <div class="sidebar-title">Actions</div>
+        <a href="#buttons" class="sidebar-item active">Buttons</a>
+        <a href="#badges" class="sidebar-item">Badges &amp; Tags</a>
+      </div>
+
+      <div class="sidebar-group">
+        <div class="sidebar-title">Forms &amp; Inputs</div>
+        <a href="#inputs" class="sidebar-item">Text Inputs</a>
+        <a href="#switches" class="sidebar-item">Switches &amp; Toggles</a>
+      </div>
+
+      <div class="sidebar-group">
+        <div class="sidebar-title">Feedback &amp; Alerts</div>
+        <a href="#alerts" class="sidebar-item">Alerts</a>
+        <a href="#toasts" class="sidebar-item">Toasts</a>
+      </div>
+
+      <div class="sidebar-group">
+        <div class="sidebar-title">Data Display</div>
+        <a href="#cards" class="sidebar-item">Cards &amp; Elevation</a>
+        <a href="#tables" class="sidebar-item">Tables</a>
+        <a href="#avatars" class="sidebar-item">Avatars</a>
+      </div>
+
+      <div class="sidebar-group">
+        <div class="sidebar-title">Navigation</div>
+        <a href="#tabs" class="sidebar-item">Tabs</a>
+        <a href="#breadcrumbs" class="sidebar-item">Breadcrumbs</a>
+        <a href="#sidebar-demo" class="sidebar-item">Sidebar Navigation</a>
+      </div>
+
+      <div class="sidebar-group">
+        <div class="sidebar-title">Data Visualization</div>
+        <a href="#charts" class="sidebar-item">Charts</a>
+      </div>
+    </aside>
+
+    <!-- Main Component Demos -->
+    <main>
+      
+      <!-- BUTTONS -->
+      <section id="buttons" class="component-section">
+        <h2>Buttons</h2>
+        <p class="section-desc">Interactive buttons in primary, secondary, ghost, danger, and disabled variants.</p>
+        
+        <div class="preview-box">
+          <button class="btn btn-primary">Primary Action</button>
+          <button class="btn btn-secondary">Secondary</button>
+          <button class="btn btn-ghost">Ghost Button</button>
+          <button class="btn btn-danger">Delete Action</button>
+          <button class="btn btn-primary" disabled>Disabled</button>
+        </div>
+
+        <div class="code-box">
+          <button class="copy-btn">Copy</button>
+          <pre><code>&lt;button class="btn btn-primary"&gt;Primary Action&lt;/button&gt;
+&lt;button class="btn btn-secondary"&gt;Secondary&lt;/button&gt;
+&lt;button class="btn btn-ghost"&gt;Ghost Button&lt;/button&gt;
+&lt;button class="btn btn-danger"&gt;Delete Action&lt;/button&gt;
+&lt;button class="btn btn-primary" disabled&gt;Disabled&lt;/button&gt;</code></pre>
+        </div>
+      </section>
+
+      <!-- BADGES -->
+      <section id="badges" class="component-section">
+        <h2>Badges &amp; Status</h2>
+        <p class="section-desc">Status indicators for success, warning, danger, and info states.</p>
+        
+        <div class="preview-box">
+          <span class="badge badge-success">● Success</span>
+          <span class="badge badge-warning">● Warning</span>
+          <span class="badge badge-danger">● Danger</span>
+          <span class="badge badge-info">● Information</span>
+        </div>
+
+        <div class="code-box">
+          <button class="copy-btn">Copy</button>
+          <pre><code>&lt;span class="badge badge-success"&gt;● Success&lt;/span&gt;
+&lt;span class="badge badge-warning"&gt;● Warning&lt;/span&gt;
+&lt;span class="badge badge-danger"&gt;● Danger&lt;/span&gt;
+&lt;span class="badge badge-info"&gt;● Information&lt;/span&gt;</code></pre>
+        </div>
+      </section>
+
+      <!-- INPUTS -->
+      <section id="inputs" class="component-section">
+        <h2>Text Inputs</h2>
+        <p class="section-desc">Form input fields with hover, focus, disabled, and error states.</p>
+        
+        <div class="preview-box" style="flex-direction: column; align-items: stretch; max-width: 480px; margin: 0 auto var(--space-4);">
+          <div class="field">
+            <label for="pname">Project Name</label>
+            <input type="text" id="pname" placeholder="e.g. octagon-mist-app">
+            <span class="help">Lowercase, hyphen-separated string.</span>
+          </div>
+
+          <div class="field error">
+            <label for="apikey">API Key (Error State)</label>
+            <input type="text" id="apikey" value="sk-invalid-key-token">
+            <span class="help">This token has expired or is invalid.</span>
+          </div>
+
+          <div class="field">
+            <label for="dis">Locked Field (Disabled)</label>
+            <input type="text" id="dis" value="Read-only system value" disabled>
+          </div>
+        </div>
+
+        <div class="code-box">
+          <button class="copy-btn">Copy</button>
+          <pre><code>&lt;div class="field"&gt;
+  &lt;label&gt;Project Name&lt;/label&gt;
+  &lt;input type="text" placeholder="e.g. octagon-mist-app"&gt;
+  &lt;span class="help"&gt;Lowercase, hyphen-separated string.&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+      </section>
+
+      <!-- SWITCHES -->
+      <section id="switches" class="component-section">
+        <h2>Switches &amp; Toggles</h2>
+        <p class="section-desc">Smooth animated toggle controls for binary settings.</p>
+        
+        <div class="preview-box">
+          <label style="display: flex; align-items: center; gap: var(--space-3); cursor: pointer;">
+            <div class="switch">
+              <input type="checkbox" checked>
+              <span class="slider-toggle"></span>
+            </div>
+            <span>Notifications Enabled</span>
+          </label>
+
+          <label style="display: flex; align-items: center; gap: var(--space-3); cursor: pointer; margin-left: var(--space-6);">
+            <div class="switch">
+              <input type="checkbox">
+              <span class="slider-toggle"></span>
+            </div>
+            <span>Maintenance Mode</span>
+          </label>
+        </div>
+      </section>
+
+      <!-- ALERTS -->
+      <section id="alerts" class="component-section">
+        <h2>Alerts</h2>
+        <p class="section-desc">Persistent message banners for informative, success, warning, or error messaging.</p>
+        
+        <div class="preview-box" style="flex-direction: column; align-items: stretch;">
+          <div class="alert alert-info">ℹ️ <strong>Information:</strong> All tokens are reading live from tokens.css.</div>
+          <div class="alert alert-success">✅ <strong>Success:</strong> Build pipeline finished cleanly with 8 output formats.</div>
+          <div class="alert alert-warning">⚠️ <strong>Warning:</strong> Remember to set your API keys in environment variables.</div>
+          <div class="alert alert-danger">❌ <strong>Error:</strong> Failed to connect to database server on port 5432.</div>
+        </div>
+      </section>
+
+      <!-- CARDS & ELEVATION -->
+      <section id="cards" class="component-section">
+        <h2>Cards &amp; Elevation</h2>
+        <p class="section-desc">Surfaces layered at different shadow levels.</p>
+        
+        <div class="preview-box" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); display: grid; width: 100%;">
+          <div style="background: var(--background-surface); border: 1px solid var(--border-subtle); padding: var(--space-4); border-radius: var(--radius-md); box-shadow: var(--shadow-xs);">
+            <h4 style="margin: 0 0 var(--space-1);">Elevation: xs</h4>
+            <p style="margin: 0; font-size: 13px; color: var(--text-secondary);">Base resting surface card.</p>
+          </div>
+
+          <div style="background: var(--background-surface); border: 1px solid var(--border-subtle); padding: var(--space-4); border-radius: var(--radius-md); box-shadow: var(--shadow-md);">
+            <h4 style="margin: 0 0 var(--space-1);">Elevation: md</h4>
+            <p style="margin: 0; font-size: 13px; color: var(--text-secondary);">Popover / dropdown shadow level.</p>
+          </div>
+
+          <div style="background: var(--background-surface); border: 1px solid var(--border-subtle); padding: var(--space-4); border-radius: var(--radius-md); box-shadow: var(--shadow-xl);">
+            <h4 style="margin: 0 0 var(--space-1);">Elevation: xl</h4>
+            <p style="margin: 0; font-size: 13px; color: var(--text-secondary);">Modal / overlay dialog shadow level.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- TABLES -->
+      <section id="tables" class="component-section">
+        <h2>Data Tables</h2>
+        <p class="section-desc">Data table rows with header styling and hover highlights.</p>
+        
+        <div class="preview-box" style="padding: 0; overflow: hidden; border-radius: var(--radius-md);">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Package Format</th>
+                <th>Path</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>CSS Custom Properties</td>
+                <td><code>css/tokens.css</code></td>
+                <td><span class="badge badge-success">Generated</span></td>
+              </tr>
+              <tr>
+                <td>Tailwind v4</td>
+                <td><code>tailwind/theme.v4.css</code></td>
+                <td><span class="badge badge-success">Generated</span></td>
+              </tr>
+              <tr>
+                <td>SCSS Variables</td>
+                <td><code>scss/_variables.scss</code></td>
+                <td><span class="badge badge-success">Generated</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- CHARTS -->
+      <section id="charts" class="component-section">
+        <h2>Data Visualization Palette</h2>
+        <p class="section-desc">Categorical chart palette with 12 distinct high-contrast hues.</p>
+        
+        <div class="preview-box">
+          <div style="display: flex; align-items: flex-end; gap: var(--space-2); height: 140px; width: 100%; padding: var(--space-4); background: var(--background-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-md);">
+            <div style="flex: 1; height: 60%; background: var(--color-primary-400); border-radius: 4px 4px 0 0;"></div>
+            <div style="flex: 1; height: 85%; background: var(--color-secondary-400); border-radius: 4px 4px 0 0;"></div>
+            <div style="flex: 1; height: 45%; background: var(--color-accent-400); border-radius: 4px 4px 0 0;"></div>
+            <div style="flex: 1; height: 75%; background: var(--color-success-400); border-radius: 4px 4px 0 0;"></div>
+            <div style="flex: 1; height: 55%; background: var(--color-warning-400); border-radius: 4px 4px 0 0;"></div>
+            <div style="flex: 1; height: 35%; background: var(--color-danger-400); border-radius: 4px 4px 0 0;"></div>
+            <div style="flex: 1; height: 70%; background: var(--color-info-400); border-radius: 4px 4px 0 0;"></div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="site-container footer-inner">
+      <div>
+        <strong>@belalwaheed/octagon-mist</strong> — Component Library
+      </div>
+      <div class="footer-links">
+        <a href="https://www.npmjs.com/package/@belalwaheed/octagon-mist" target="_blank">npm</a>
+        <a href="https://github.com/BelalWaheed/octagon-mist" target="_blank">GitHub</a>
+        <a href="docs.html">Docs</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/site.js"></script>
+</body>
+</html>
