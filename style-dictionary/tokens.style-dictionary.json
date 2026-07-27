@@ -1,0 +1,1782 @@
+{
+  "color": {
+    "graphite": {
+      "50": {
+        "value": "#f9faff",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(249, 250, 255)",
+          "hsl": "hsl(230, 100%, 99%)",
+          "oklch": "oklch(98.5% 0.007 279°)"
+        }
+      },
+      "100": {
+        "value": "#eff0f5",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(239, 240, 245)",
+          "hsl": "hsl(230, 23%, 95%)",
+          "oklch": "oklch(95.5% 0.007 279°)"
+        }
+      },
+      "200": {
+        "value": "#dbdce1",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(219, 220, 225)",
+          "hsl": "hsl(230, 9%, 87%)",
+          "oklch": "oklch(89.5% 0.007 279°)"
+        }
+      },
+      "300": {
+        "value": "#c8c8cd",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(200, 200, 205)",
+          "hsl": "hsl(240, 5%, 79%)",
+          "oklch": "oklch(83.5% 0.007 279°)"
+        }
+      },
+      "400": {
+        "value": "#adadb2",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(173, 173, 178)",
+          "hsl": "hsl(240, 3%, 69%)",
+          "oklch": "oklch(75.0% 0.007 279°)"
+        }
+      },
+      "500": {
+        "value": "#939398",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(147, 147, 152)",
+          "hsl": "hsl(240, 2%, 59%)",
+          "oklch": "oklch(66.5% 0.007 279°)"
+        }
+      },
+      "600": {
+        "value": "#78787d",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(120, 120, 125)",
+          "hsl": "hsl(240, 2%, 48%)",
+          "oklch": "oklch(57.5% 0.007 279°)"
+        }
+      },
+      "700": {
+        "value": "#5e5f63",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(94, 95, 99)",
+          "hsl": "hsl(228, 3%, 38%)",
+          "oklch": "oklch(48.5% 0.007 279°)"
+        }
+      },
+      "800": {
+        "value": "#45464a",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(69, 70, 74)",
+          "hsl": "hsl(228, 3%, 28%)",
+          "oklch": "oklch(39.5% 0.007 279°)"
+        }
+      },
+      "900": {
+        "value": "#2e2f33",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(46, 47, 51)",
+          "hsl": "hsl(228, 5%, 19%)",
+          "oklch": "oklch(30.5% 0.007 279°)"
+        }
+      },
+      "950": {
+        "value": "#1a1a1e",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(26, 26, 30)",
+          "hsl": "hsl(240, 7%, 11%)",
+          "oklch": "oklch(22.0% 0.007 279°)"
+        }
+      }
+    },
+    "primary": {
+      "50": {
+        "value": "#fbf9fb",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(251, 249, 251)",
+          "hsl": "hsl(300, 20%, 98%)",
+          "oklch": "oklch(98.5% 0.003 322°)"
+        }
+      },
+      "100": {
+        "value": "#f4eef4",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(244, 238, 244)",
+          "hsl": "hsl(300, 21%, 95%)",
+          "oklch": "oklch(95.5% 0.011 322°)"
+        }
+      },
+      "200": {
+        "value": "#e7d6e9",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(231, 214, 233)",
+          "hsl": "hsl(294, 30%, 88%)",
+          "oklch": "oklch(89.5% 0.032 322°)"
+        }
+      },
+      "300": {
+        "value": "#d7c0da",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(215, 192, 218)",
+          "hsl": "hsl(293, 26%, 80%)",
+          "oklch": "oklch(83.5% 0.044 322°)"
+        }
+      },
+      "400": {
+        "value": "#c3a0c9",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(195, 160, 201)",
+          "hsl": "hsl(291, 28%, 71%)",
+          "oklch": "oklch(75.0% 0.070 322°)"
+        }
+      },
+      "500": {
+        "value": "#ae81b5",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(174, 129, 181)",
+          "hsl": "hsl(292, 26%, 61%)",
+          "oklch": "oklch(66.5% 0.090 322°)"
+        }
+      },
+      "600": {
+        "value": "#916797",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(145, 103, 151)",
+          "hsl": "hsl(293, 19%, 50%)",
+          "oklch": "oklch(57.5% 0.086 322°)"
+        }
+      },
+      "700": {
+        "value": "#744f7a",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(116, 79, 122)",
+          "hsl": "hsl(292, 21%, 39%)",
+          "oklch": "oklch(48.5% 0.079 322°)"
+        }
+      },
+      "800": {
+        "value": "#573a5c",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(87, 58, 92)",
+          "hsl": "hsl(291, 23%, 29%)",
+          "oklch": "oklch(39.5% 0.068 322°)"
+        }
+      },
+      "900": {
+        "value": "#3c2540",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(60, 37, 64)",
+          "hsl": "hsl(291, 27%, 20%)",
+          "oklch": "oklch(30.5% 0.057 322°)"
+        }
+      },
+      "950": {
+        "value": "#241426",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(36, 20, 38)",
+          "hsl": "hsl(293, 31%, 11%)",
+          "oklch": "oklch(22.0% 0.042 322°)"
+        }
+      }
+    },
+    "secondary": {
+      "50": {
+        "value": "#f8fbf9",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(248, 251, 249)",
+          "hsl": "hsl(140, 27%, 98%)",
+          "oklch": "oklch(98.5% 0.003 167°)"
+        }
+      },
+      "100": {
+        "value": "#eaf3ee",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(234, 243, 238)",
+          "hsl": "hsl(147, 27%, 94%)",
+          "oklch": "oklch(95.5% 0.011 167°)"
+        }
+      },
+      "200": {
+        "value": "#cae3d8",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(202, 227, 216)",
+          "hsl": "hsl(154, 31%, 84%)",
+          "oklch": "oklch(89.5% 0.032 167°)"
+        }
+      },
+      "300": {
+        "value": "#afd3c3",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(175, 211, 195)",
+          "hsl": "hsl(153, 29%, 76%)",
+          "oklch": "oklch(83.5% 0.044 167°)"
+        }
+      },
+      "400": {
+        "value": "#82bda5",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(130, 189, 165)",
+          "hsl": "hsl(156, 31%, 63%)",
+          "oklch": "oklch(75.0% 0.070 167°)"
+        }
+      },
+      "500": {
+        "value": "#57a688",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(87, 166, 136)",
+          "hsl": "hsl(157, 31%, 50%)",
+          "oklch": "oklch(66.5% 0.090 167°)"
+        }
+      },
+      "600": {
+        "value": "#3e896e",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(62, 137, 110)",
+          "hsl": "hsl(158, 38%, 39%)",
+          "oklch": "oklch(57.5% 0.086 167°)"
+        }
+      },
+      "700": {
+        "value": "#296d55",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(41, 109, 85)",
+          "hsl": "hsl(159, 45%, 29%)",
+          "oklch": "oklch(48.5% 0.079 167°)"
+        }
+      },
+      "800": {
+        "value": "#19523f",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(25, 82, 63)",
+          "hsl": "hsl(160, 53%, 21%)",
+          "oklch": "oklch(39.5% 0.068 167°)"
+        }
+      },
+      "900": {
+        "value": "#083829",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(8, 56, 41)",
+          "hsl": "hsl(161, 75%, 13%)",
+          "oklch": "oklch(30.5% 0.057 167°)"
+        }
+      },
+      "950": {
+        "value": "#022116",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(2, 33, 22)",
+          "hsl": "hsl(159, 89%, 7%)",
+          "oklch": "oklch(22.0% 0.042 167°)"
+        }
+      }
+    },
+    "accent": {
+      "50": {
+        "value": "#fdf9f7",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(253, 249, 247)",
+          "hsl": "hsl(20, 60%, 98%)",
+          "oklch": "oklch(98.5% 0.005 51°)"
+        }
+      },
+      "100": {
+        "value": "#faede6",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(250, 237, 230)",
+          "hsl": "hsl(21, 67%, 94%)",
+          "oklch": "oklch(95.5% 0.017 51°)"
+        }
+      },
+      "200": {
+        "value": "#f8d4bf",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(248, 212, 191)",
+          "hsl": "hsl(22, 80%, 86%)",
+          "oklch": "oklch(89.5% 0.050 51°)"
+        }
+      },
+      "300": {
+        "value": "#efbda0",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(239, 189, 160)",
+          "hsl": "hsl(22, 71%, 78%)",
+          "oklch": "oklch(83.5% 0.070 51°)"
+        }
+      },
+      "400": {
+        "value": "#e6996b",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(230, 153, 107)",
+          "hsl": "hsl(22, 71%, 66%)",
+          "oklch": "oklch(75.0% 0.111 51°)"
+        }
+      },
+      "500": {
+        "value": "#d77738",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(215, 119, 56)",
+          "hsl": "hsl(24, 67%, 53%)",
+          "oklch": "oklch(66.5% 0.142 51°)"
+        }
+      },
+      "600": {
+        "value": "#b65d1d",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(182, 93, 29)",
+          "hsl": "hsl(25, 73%, 41%)",
+          "oklch": "oklch(57.5% 0.136 51°)"
+        }
+      },
+      "700": {
+        "value": "#944503",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(148, 69, 3)",
+          "hsl": "hsl(27, 96%, 30%)",
+          "oklch": "oklch(48.5% 0.125 51°)"
+        }
+      },
+      "800": {
+        "value": "#713100",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(113, 49, 0)",
+          "hsl": "hsl(26, 100%, 22%)",
+          "oklch": "oklch(39.5% 0.106 51°)"
+        }
+      },
+      "900": {
+        "value": "#501e00",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(80, 30, 0)",
+          "hsl": "hsl(23, 100%, 16%)",
+          "oklch": "oklch(30.5% 0.089 51°)"
+        }
+      },
+      "950": {
+        "value": "#310e00",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(49, 14, 0)",
+          "hsl": "hsl(17, 100%, 10%)",
+          "oklch": "oklch(22.0% 0.067 51°)"
+        }
+      }
+    },
+    "success": {
+      "50": {
+        "value": "#f9fbf7",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(249, 251, 247)",
+          "hsl": "hsl(90, 33%, 98%)",
+          "oklch": "oklch(98.5% 0.006 121°)"
+        }
+      },
+      "100": {
+        "value": "#eef2e5",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(238, 242, 229)",
+          "hsl": "hsl(78, 33%, 92%)",
+          "oklch": "oklch(95.5% 0.018 121°)"
+        }
+      },
+      "200": {
+        "value": "#d7e2bc",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(215, 226, 188)",
+          "hsl": "hsl(77, 40%, 81%)",
+          "oklch": "oklch(89.5% 0.052 121°)"
+        }
+      },
+      "300": {
+        "value": "#c2d19c",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(194, 209, 156)",
+          "hsl": "hsl(77, 37%, 72%)",
+          "oklch": "oklch(83.5% 0.073 121°)"
+        }
+      },
+      "400": {
+        "value": "#a3b963",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(163, 185, 99)",
+          "hsl": "hsl(75, 38%, 56%)",
+          "oklch": "oklch(75.0% 0.115 121°)"
+        }
+      },
+      "500": {
+        "value": "#87a122",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(135, 161, 34)",
+          "hsl": "hsl(72, 65%, 38%)",
+          "oklch": "oklch(66.5% 0.148 121°)"
+        }
+      },
+      "600": {
+        "value": "#6d8400",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(109, 132, 0)",
+          "hsl": "hsl(70, 100%, 26%)",
+          "oklch": "oklch(57.5% 0.142 121°)"
+        }
+      },
+      "700": {
+        "value": "#556900",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(85, 105, 0)",
+          "hsl": "hsl(71, 100%, 21%)",
+          "oklch": "oklch(48.5% 0.130 121°)"
+        }
+      },
+      "800": {
+        "value": "#3e4e00",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(62, 78, 0)",
+          "hsl": "hsl(72, 100%, 15%)",
+          "oklch": "oklch(39.5% 0.111 121°)"
+        }
+      },
+      "900": {
+        "value": "#293500",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(41, 53, 0)",
+          "hsl": "hsl(74, 100%, 10%)",
+          "oklch": "oklch(30.5% 0.093 121°)"
+        }
+      },
+      "950": {
+        "value": "#161f00",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(22, 31, 0)",
+          "hsl": "hsl(77, 100%, 6%)",
+          "oklch": "oklch(22.0% 0.070 121°)"
+        }
+      }
+    },
+    "warning": {
+      "50": {
+        "value": "#fbfaf6",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(251, 250, 246)",
+          "hsl": "hsl(48, 38%, 97%)",
+          "oklch": "oklch(98.5% 0.005 89°)"
+        }
+      },
+      "100": {
+        "value": "#f4f0e4",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(244, 240, 228)",
+          "hsl": "hsl(45, 42%, 93%)",
+          "oklch": "oklch(95.5% 0.016 89°)"
+        }
+      },
+      "200": {
+        "value": "#e9dbba",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(233, 219, 186)",
+          "hsl": "hsl(42, 52%, 82%)",
+          "oklch": "oklch(89.5% 0.046 89°)"
+        }
+      },
+      "300": {
+        "value": "#dac799",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(218, 199, 153)",
+          "hsl": "hsl(42, 47%, 73%)",
+          "oklch": "oklch(83.5% 0.065 89°)"
+        }
+      },
+      "400": {
+        "value": "#c8ab5d",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(200, 171, 93)",
+          "hsl": "hsl(44, 49%, 57%)",
+          "oklch": "oklch(75.0% 0.103 89°)"
+        }
+      },
+      "500": {
+        "value": "#b48e12",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(180, 142, 18)",
+          "hsl": "hsl(46, 82%, 39%)",
+          "oklch": "oklch(66.5% 0.132 89°)"
+        }
+      },
+      "600": {
+        "value": "#977300",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(151, 115, 0)",
+          "hsl": "hsl(46, 100%, 30%)",
+          "oklch": "oklch(57.5% 0.127 89°)"
+        }
+      },
+      "700": {
+        "value": "#795a00",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(121, 90, 0)",
+          "hsl": "hsl(45, 100%, 24%)",
+          "oklch": "oklch(48.5% 0.116 89°)"
+        }
+      },
+      "800": {
+        "value": "#5c4200",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(92, 66, 0)",
+          "hsl": "hsl(43, 100%, 18%)",
+          "oklch": "oklch(39.5% 0.099 89°)"
+        }
+      },
+      "900": {
+        "value": "#402b00",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(64, 43, 0)",
+          "hsl": "hsl(40, 100%, 13%)",
+          "oklch": "oklch(30.5% 0.083 89°)"
+        }
+      },
+      "950": {
+        "value": "#261800",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(38, 24, 0)",
+          "hsl": "hsl(38, 100%, 7%)",
+          "oklch": "oklch(22.0% 0.062 89°)"
+        }
+      }
+    },
+    "danger": {
+      "50": {
+        "value": "#fff8f8",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(255, 248, 248)",
+          "hsl": "hsl(0, 100%, 99%)",
+          "oklch": "oklch(98.5% 0.007 15°)"
+        }
+      },
+      "100": {
+        "value": "#ffeaeb",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(255, 234, 235)",
+          "hsl": "hsl(357, 100%, 96%)",
+          "oklch": "oklch(95.5% 0.022 15°)"
+        }
+      },
+      "200": {
+        "value": "#ffcbce",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(255, 203, 206)",
+          "hsl": "hsl(357, 100%, 90%)",
+          "oklch": "oklch(89.5% 0.065 15°)"
+        }
+      },
+      "300": {
+        "value": "#ffb1b6",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(255, 177, 182)",
+          "hsl": "hsl(356, 100%, 85%)",
+          "oklch": "oklch(83.5% 0.092 15°)"
+        }
+      },
+      "400": {
+        "value": "#fc8490",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(252, 132, 144)",
+          "hsl": "hsl(354, 95%, 75%)",
+          "oklch": "oklch(75.0% 0.146 15°)"
+        }
+      },
+      "500": {
+        "value": "#f0576e",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(240, 87, 110)",
+          "hsl": "hsl(351, 84%, 64%)",
+          "oklch": "oklch(66.5% 0.187 15°)"
+        }
+      },
+      "600": {
+        "value": "#cc3d56",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(204, 61, 86)",
+          "hsl": "hsl(350, 58%, 52%)",
+          "oklch": "oklch(57.5% 0.180 15°)"
+        }
+      },
+      "700": {
+        "value": "#a72640",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(167, 38, 64)",
+          "hsl": "hsl(348, 63%, 40%)",
+          "oklch": "oklch(48.5% 0.165 15°)"
+        }
+      },
+      "800": {
+        "value": "#80152d",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(128, 21, 45)",
+          "hsl": "hsl(347, 72%, 29%)",
+          "oklch": "oklch(39.5% 0.140 15°)"
+        }
+      },
+      "900": {
+        "value": "#5c041b",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(92, 4, 27)",
+          "hsl": "hsl(344, 92%, 19%)",
+          "oklch": "oklch(30.5% 0.118 15°)"
+        }
+      },
+      "950": {
+        "value": "#39000d",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(57, 0, 13)",
+          "hsl": "hsl(346, 100%, 11%)",
+          "oklch": "oklch(22.0% 0.088 15°)"
+        }
+      }
+    },
+    "info": {
+      "50": {
+        "value": "#f8fafd",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(248, 250, 253)",
+          "hsl": "hsl(216, 56%, 98%)",
+          "oklch": "oklch(98.5% 0.005 247°)"
+        }
+      },
+      "100": {
+        "value": "#e9f1fa",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(233, 241, 250)",
+          "hsl": "hsl(212, 63%, 95%)",
+          "oklch": "oklch(95.5% 0.014 247°)"
+        }
+      },
+      "200": {
+        "value": "#c7e0f7",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(199, 224, 247)",
+          "hsl": "hsl(209, 75%, 87%)",
+          "oklch": "oklch(89.5% 0.042 247°)"
+        }
+      },
+      "300": {
+        "value": "#abcdee",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(171, 205, 238)",
+          "hsl": "hsl(210, 66%, 80%)",
+          "oklch": "oklch(83.5% 0.059 247°)"
+        }
+      },
+      "400": {
+        "value": "#7cb4e6",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(124, 180, 230)",
+          "hsl": "hsl(208, 68%, 69%)",
+          "oklch": "oklch(75.0% 0.094 247°)"
+        }
+      },
+      "500": {
+        "value": "#509ad9",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(80, 154, 217)",
+          "hsl": "hsl(208, 64%, 58%)",
+          "oklch": "oklch(66.5% 0.120 247°)"
+        }
+      },
+      "600": {
+        "value": "#387eb9",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(56, 126, 185)",
+          "hsl": "hsl(207, 54%, 47%)",
+          "oklch": "oklch(57.5% 0.115 247°)"
+        }
+      },
+      "700": {
+        "value": "#236397",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(35, 99, 151)",
+          "hsl": "hsl(207, 62%, 36%)",
+          "oklch": "oklch(48.5% 0.106 247°)"
+        }
+      },
+      "800": {
+        "value": "#144974",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(20, 73, 116)",
+          "hsl": "hsl(207, 71%, 27%)",
+          "oklch": "oklch(39.5% 0.090 247°)"
+        }
+      },
+      "900": {
+        "value": "#043153",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(4, 49, 83)",
+          "hsl": "hsl(206, 91%, 17%)",
+          "oklch": "oklch(30.5% 0.076 247°)"
+        }
+      },
+      "950": {
+        "value": "#011c33",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(1, 28, 51)",
+          "hsl": "hsl(208, 96%, 10%)",
+          "oklch": "oklch(22.0% 0.056 247°)"
+        }
+      }
+    },
+    "rose": {
+      "50": {
+        "value": "#fcf9fa",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(252, 249, 250)",
+          "hsl": "hsl(340, 33%, 98%)",
+          "oklch": "oklch(98.5% 0.004 350°)"
+        }
+      },
+      "100": {
+        "value": "#f8edf1",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(248, 237, 241)",
+          "hsl": "hsl(338, 44%, 95%)",
+          "oklch": "oklch(95.5% 0.013 350°)"
+        }
+      },
+      "200": {
+        "value": "#f1d3e0",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(241, 211, 224)",
+          "hsl": "hsl(334, 52%, 89%)",
+          "oklch": "oklch(89.5% 0.038 350°)"
+        }
+      },
+      "300": {
+        "value": "#e5bbce",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(229, 187, 206)",
+          "hsl": "hsl(333, 45%, 82%)",
+          "oklch": "oklch(83.5% 0.054 350°)"
+        }
+      },
+      "400": {
+        "value": "#d898b6",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(216, 152, 182)",
+          "hsl": "hsl(332, 45%, 72%)",
+          "oklch": "oklch(75.0% 0.086 350°)"
+        }
+      },
+      "500": {
+        "value": "#c6779d",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(198, 119, 157)",
+          "hsl": "hsl(331, 41%, 62%)",
+          "oklch": "oklch(66.5% 0.110 350°)"
+        }
+      },
+      "600": {
+        "value": "#a75d82",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(167, 93, 130)",
+          "hsl": "hsl(330, 30%, 51%)",
+          "oklch": "oklch(57.5% 0.106 350°)"
+        }
+      },
+      "700": {
+        "value": "#874667",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(135, 70, 103)",
+          "hsl": "hsl(330, 32%, 40%)",
+          "oklch": "oklch(48.5% 0.097 350°)"
+        }
+      },
+      "800": {
+        "value": "#67324d",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(103, 50, 77)",
+          "hsl": "hsl(329, 35%, 30%)",
+          "oklch": "oklch(39.5% 0.083 350°)"
+        }
+      },
+      "900": {
+        "value": "#481f34",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(72, 31, 52)",
+          "hsl": "hsl(329, 40%, 20%)",
+          "oklch": "oklch(30.5% 0.069 350°)"
+        }
+      },
+      "950": {
+        "value": "#2c0f1e",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(44, 15, 30)",
+          "hsl": "hsl(329, 49%, 12%)",
+          "oklch": "oklch(22.0% 0.052 350°)"
+        }
+      }
+    },
+    "indigo": {
+      "50": {
+        "value": "#fafafd",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(250, 250, 253)",
+          "hsl": "hsl(240, 43%, 99%)",
+          "oklch": "oklch(98.5% 0.004 285°)"
+        }
+      },
+      "100": {
+        "value": "#efeff9",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(239, 239, 249)",
+          "hsl": "hsl(240, 45%, 96%)",
+          "oklch": "oklch(95.5% 0.013 285°)"
+        }
+      },
+      "200": {
+        "value": "#d9d9f6",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(217, 217, 246)",
+          "hsl": "hsl(240, 62%, 91%)",
+          "oklch": "oklch(89.5% 0.038 285°)"
+        }
+      },
+      "300": {
+        "value": "#c5c5eb",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(197, 197, 235)",
+          "hsl": "hsl(240, 49%, 85%)",
+          "oklch": "oklch(83.5% 0.054 285°)"
+        }
+      },
+      "400": {
+        "value": "#a8a7e3",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(168, 167, 227)",
+          "hsl": "hsl(241, 52%, 77%)",
+          "oklch": "oklch(75.0% 0.086 285°)"
+        }
+      },
+      "500": {
+        "value": "#8d8ad4",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(141, 138, 212)",
+          "hsl": "hsl(242, 46%, 69%)",
+          "oklch": "oklch(66.5% 0.110 285°)"
+        }
+      },
+      "600": {
+        "value": "#736fb5",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(115, 111, 181)",
+          "hsl": "hsl(243, 32%, 57%)",
+          "oklch": "oklch(57.5% 0.106 285°)"
+        }
+      },
+      "700": {
+        "value": "#5a5693",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(90, 86, 147)",
+          "hsl": "hsl(244, 26%, 46%)",
+          "oklch": "oklch(48.5% 0.097 285°)"
+        }
+      },
+      "800": {
+        "value": "#423f71",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(66, 63, 113)",
+          "hsl": "hsl(244, 28%, 35%)",
+          "oklch": "oklch(39.5% 0.083 285°)"
+        }
+      },
+      "900": {
+        "value": "#2c2950",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(44, 41, 80)",
+          "hsl": "hsl(245, 32%, 24%)",
+          "oklch": "oklch(30.5% 0.069 285°)"
+        }
+      },
+      "950": {
+        "value": "#181631",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(24, 22, 49)",
+          "hsl": "hsl(244, 38%, 14%)",
+          "oklch": "oklch(22.0% 0.052 285°)"
+        }
+      }
+    },
+    "ochre": {
+      "50": {
+        "value": "#fcfaf7",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(252, 250, 247)",
+          "hsl": "hsl(36, 45%, 98%)",
+          "oklch": "oklch(98.5% 0.004 75°)"
+        }
+      },
+      "100": {
+        "value": "#f5efe7",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(245, 239, 231)",
+          "hsl": "hsl(34, 41%, 93%)",
+          "oklch": "oklch(95.5% 0.013 75°)"
+        }
+      },
+      "200": {
+        "value": "#ecd9c1",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(236, 217, 193)",
+          "hsl": "hsl(33, 53%, 84%)",
+          "oklch": "oklch(89.5% 0.038 75°)"
+        }
+      },
+      "300": {
+        "value": "#dec5a3",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(222, 197, 163)",
+          "hsl": "hsl(35, 47%, 75%)",
+          "oklch": "oklch(83.5% 0.054 75°)"
+        }
+      },
+      "400": {
+        "value": "#cea66f",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(206, 166, 111)",
+          "hsl": "hsl(35, 49%, 62%)",
+          "oklch": "oklch(75.0% 0.086 75°)"
+        }
+      },
+      "500": {
+        "value": "#bb893e",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(187, 137, 62)",
+          "hsl": "hsl(36, 50%, 49%)",
+          "oklch": "oklch(66.5% 0.110 75°)"
+        }
+      },
+      "600": {
+        "value": "#9d6f24",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(157, 111, 36)",
+          "hsl": "hsl(37, 63%, 38%)",
+          "oklch": "oklch(57.5% 0.106 75°)"
+        }
+      },
+      "700": {
+        "value": "#7f560e",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(127, 86, 14)",
+          "hsl": "hsl(38, 80%, 28%)",
+          "oklch": "oklch(48.5% 0.097 75°)"
+        }
+      },
+      "800": {
+        "value": "#603f01",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(96, 63, 1)",
+          "hsl": "hsl(39, 98%, 19%)",
+          "oklch": "oklch(39.5% 0.083 75°)"
+        }
+      },
+      "900": {
+        "value": "#432900",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(67, 41, 0)",
+          "hsl": "hsl(37, 100%, 13%)",
+          "oklch": "oklch(30.5% 0.069 75°)"
+        }
+      },
+      "950": {
+        "value": "#281600",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(40, 22, 0)",
+          "hsl": "hsl(33, 100%, 8%)",
+          "oklch": "oklch(22.0% 0.052 75°)"
+        }
+      }
+    },
+    "sage": {
+      "50": {
+        "value": "#f9fbf9",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(249, 251, 249)",
+          "hsl": "hsl(120, 20%, 98%)",
+          "oklch": "oklch(98.5% 0.003 145°)"
+        }
+      },
+      "100": {
+        "value": "#ecf2ec",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(236, 242, 236)",
+          "hsl": "hsl(120, 19%, 94%)",
+          "oklch": "oklch(95.5% 0.010 145°)"
+        }
+      },
+      "200": {
+        "value": "#d1e2d1",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(209, 226, 209)",
+          "hsl": "hsl(120, 23%, 85%)",
+          "oklch": "oklch(89.5% 0.028 145°)"
+        }
+      },
+      "300": {
+        "value": "#bad0ba",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(186, 208, 186)",
+          "hsl": "hsl(120, 19%, 77%)",
+          "oklch": "oklch(83.5% 0.039 145°)"
+        }
+      },
+      "400": {
+        "value": "#96b996",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(150, 185, 150)",
+          "hsl": "hsl(120, 20%, 66%)",
+          "oklch": "oklch(75.0% 0.062 145°)"
+        }
+      },
+      "500": {
+        "value": "#75a175",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(117, 161, 117)",
+          "hsl": "hsl(120, 19%, 55%)",
+          "oklch": "oklch(66.5% 0.080 145°)"
+        }
+      },
+      "600": {
+        "value": "#5c855c",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(92, 133, 92)",
+          "hsl": "hsl(120, 18%, 44%)",
+          "oklch": "oklch(57.5% 0.077 145°)"
+        }
+      },
+      "700": {
+        "value": "#456a46",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(69, 106, 70)",
+          "hsl": "hsl(122, 21%, 34%)",
+          "oklch": "oklch(48.5% 0.070 145°)"
+        }
+      },
+      "800": {
+        "value": "#314f32",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(49, 79, 50)",
+          "hsl": "hsl(122, 23%, 25%)",
+          "oklch": "oklch(39.5% 0.060 145°)"
+        }
+      },
+      "900": {
+        "value": "#1e361f",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(30, 54, 31)",
+          "hsl": "hsl(122, 29%, 16%)",
+          "oklch": "oklch(30.5% 0.050 145°)"
+        }
+      },
+      "950": {
+        "value": "#0f1f0f",
+        "type": "color",
+        "attributes": {
+          "rgb": "rgb(15, 31, 15)",
+          "hsl": "hsl(120, 35%, 9%)",
+          "oklch": "oklch(22.0% 0.038 145°)"
+        }
+      }
+    },
+    "semantic": {
+      "light": {
+        "background-canvas": {
+          "value": "#eff0f5",
+          "type": "color"
+        },
+        "background-base": {
+          "value": "#f9faff",
+          "type": "color"
+        },
+        "background-surface": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "background-surfaceRaised": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "background-overlay": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "background-sidebar": {
+          "value": "#eff0f5",
+          "type": "color"
+        },
+        "background-nav": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "background-popover": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "background-dialog": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "background-tooltip": {
+          "value": "#2e2f33",
+          "type": "color"
+        },
+        "border-subtle": {
+          "value": "#dbdce1",
+          "type": "color"
+        },
+        "border-default": {
+          "value": "#c8c8cd",
+          "type": "color"
+        },
+        "border-strong": {
+          "value": "#adadb2",
+          "type": "color"
+        },
+        "border-focus": {
+          "value": "#387eb9",
+          "type": "color"
+        },
+        "text-primary": {
+          "value": "#2e2f33",
+          "type": "color"
+        },
+        "text-secondary": {
+          "value": "#5e5f63",
+          "type": "color"
+        },
+        "text-tertiary": {
+          "value": "#78787d",
+          "type": "color"
+        },
+        "text-disabled": {
+          "value": "#adadb2",
+          "type": "color"
+        },
+        "text-inverseOnSolid": {
+          "value": "#f9faff",
+          "type": "color"
+        },
+        "text-link": {
+          "value": "#744f7a",
+          "type": "color"
+        },
+        "text-linkHover": {
+          "value": "#573a5c",
+          "type": "color"
+        },
+        "text-tooltipFg": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "input-bg": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "input-border": {
+          "value": "#c8c8cd",
+          "type": "color"
+        },
+        "input-borderHover": {
+          "value": "#adadb2",
+          "type": "color"
+        },
+        "input-borderFocus": {
+          "value": "#387eb9",
+          "type": "color"
+        },
+        "input-placeholder": {
+          "value": "#adadb2",
+          "type": "color"
+        },
+        "input-text": {
+          "value": "#2e2f33",
+          "type": "color"
+        },
+        "input-disabledBg": {
+          "value": "#eff0f5",
+          "type": "color"
+        },
+        "input-disabledText": {
+          "value": "#adadb2",
+          "type": "color"
+        },
+        "interaction-hoverOverlay": {
+          "value": "rgba(15,15,20,0.045)",
+          "type": "color"
+        },
+        "interaction-activeOverlay": {
+          "value": "rgba(15,15,20,0.08)",
+          "type": "color"
+        },
+        "interaction-selectionBg": {
+          "value": "#e7d6e9",
+          "type": "color"
+        },
+        "interaction-focusRing": {
+          "value": "#387eb9",
+          "type": "color"
+        },
+        "overlay-scrim": {
+          "value": "rgba(20,20,28,0.45)",
+          "type": "color"
+        },
+        "scrollbar-track": {
+          "value": "#eff0f5",
+          "type": "color"
+        },
+        "scrollbar-thumb": {
+          "value": "#c8c8cd",
+          "type": "color"
+        },
+        "scrollbar-thumbHover": {
+          "value": "#adadb2",
+          "type": "color"
+        },
+        "status-success-subtleBg": {
+          "value": "#f9fbf7",
+          "type": "color"
+        },
+        "status-success-subtleBorder": {
+          "value": "#d7e2bc",
+          "type": "color"
+        },
+        "status-success-subtleFg": {
+          "value": "#556900",
+          "type": "color"
+        },
+        "status-success-solidBg": {
+          "value": "#556900",
+          "type": "color"
+        },
+        "status-success-solidFg": {
+          "value": "#f9faff",
+          "type": "color"
+        },
+        "status-warning-subtleBg": {
+          "value": "#fbfaf6",
+          "type": "color"
+        },
+        "status-warning-subtleBorder": {
+          "value": "#e9dbba",
+          "type": "color"
+        },
+        "status-warning-subtleFg": {
+          "value": "#795a00",
+          "type": "color"
+        },
+        "status-warning-solidBg": {
+          "value": "#795a00",
+          "type": "color"
+        },
+        "status-warning-solidFg": {
+          "value": "#f9faff",
+          "type": "color"
+        },
+        "status-danger-subtleBg": {
+          "value": "#fff8f8",
+          "type": "color"
+        },
+        "status-danger-subtleBorder": {
+          "value": "#ffcbce",
+          "type": "color"
+        },
+        "status-danger-subtleFg": {
+          "value": "#a72640",
+          "type": "color"
+        },
+        "status-danger-solidBg": {
+          "value": "#a72640",
+          "type": "color"
+        },
+        "status-danger-solidFg": {
+          "value": "#f9faff",
+          "type": "color"
+        },
+        "status-info-subtleBg": {
+          "value": "#f8fafd",
+          "type": "color"
+        },
+        "status-info-subtleBorder": {
+          "value": "#c7e0f7",
+          "type": "color"
+        },
+        "status-info-subtleFg": {
+          "value": "#236397",
+          "type": "color"
+        },
+        "status-info-solidBg": {
+          "value": "#236397",
+          "type": "color"
+        },
+        "status-info-solidFg": {
+          "value": "#f9faff",
+          "type": "color"
+        },
+        "chart-categorical-0": {
+          "value": "#ae81b5",
+          "type": "color"
+        },
+        "chart-categorical-1": {
+          "value": "#57a688",
+          "type": "color"
+        },
+        "chart-categorical-2": {
+          "value": "#d77738",
+          "type": "color"
+        },
+        "chart-categorical-3": {
+          "value": "#87a122",
+          "type": "color"
+        },
+        "chart-categorical-4": {
+          "value": "#b48e12",
+          "type": "color"
+        },
+        "chart-categorical-5": {
+          "value": "#f0576e",
+          "type": "color"
+        },
+        "chart-categorical-6": {
+          "value": "#509ad9",
+          "type": "color"
+        },
+        "chart-categorical-7": {
+          "value": "#c6779d",
+          "type": "color"
+        },
+        "chart-categorical-8": {
+          "value": "#8d8ad4",
+          "type": "color"
+        },
+        "chart-categorical-9": {
+          "value": "#bb893e",
+          "type": "color"
+        },
+        "chart-categorical-10": {
+          "value": "#75a175",
+          "type": "color"
+        },
+        "chart-categorical-11": {
+          "value": "#939398",
+          "type": "color"
+        }
+      },
+      "dark": {
+        "background-canvas": {
+          "value": "#1a1a1e",
+          "type": "color"
+        },
+        "background-base": {
+          "value": "#2e2f33",
+          "type": "color"
+        },
+        "background-surface": {
+          "value": "#45464a",
+          "type": "color"
+        },
+        "background-surfaceRaised": {
+          "value": "#5e5f63",
+          "type": "color"
+        },
+        "background-overlay": {
+          "value": "#5e5f63",
+          "type": "color"
+        },
+        "background-sidebar": {
+          "value": "#1a1a1e",
+          "type": "color"
+        },
+        "background-nav": {
+          "value": "#2e2f33",
+          "type": "color"
+        },
+        "background-popover": {
+          "value": "#5e5f63",
+          "type": "color"
+        },
+        "background-dialog": {
+          "value": "#5e5f63",
+          "type": "color"
+        },
+        "background-tooltip": {
+          "value": "#78787d",
+          "type": "color"
+        },
+        "border-subtle": {
+          "value": "#45464a",
+          "type": "color"
+        },
+        "border-default": {
+          "value": "#5e5f63",
+          "type": "color"
+        },
+        "border-strong": {
+          "value": "#939398",
+          "type": "color"
+        },
+        "border-focus": {
+          "value": "#7cb4e6",
+          "type": "color"
+        },
+        "text-primary": {
+          "value": "#f9faff",
+          "type": "color"
+        },
+        "text-secondary": {
+          "value": "#c8c8cd",
+          "type": "color"
+        },
+        "text-tertiary": {
+          "value": "#939398",
+          "type": "color"
+        },
+        "text-disabled": {
+          "value": "#78787d",
+          "type": "color"
+        },
+        "text-inverseOnSolid": {
+          "value": "#1a1a1e",
+          "type": "color"
+        },
+        "text-link": {
+          "value": "#c3a0c9",
+          "type": "color"
+        },
+        "text-linkHover": {
+          "value": "#d7c0da",
+          "type": "color"
+        },
+        "text-tooltipFg": {
+          "value": "#f9faff",
+          "type": "color"
+        },
+        "input-bg": {
+          "value": "#2e2f33",
+          "type": "color"
+        },
+        "input-border": {
+          "value": "#5e5f63",
+          "type": "color"
+        },
+        "input-borderHover": {
+          "value": "#78787d",
+          "type": "color"
+        },
+        "input-borderFocus": {
+          "value": "#7cb4e6",
+          "type": "color"
+        },
+        "input-placeholder": {
+          "value": "#78787d",
+          "type": "color"
+        },
+        "input-text": {
+          "value": "#f9faff",
+          "type": "color"
+        },
+        "input-disabledBg": {
+          "value": "#45464a",
+          "type": "color"
+        },
+        "input-disabledText": {
+          "value": "#78787d",
+          "type": "color"
+        },
+        "interaction-hoverOverlay": {
+          "value": "rgba(255,255,255,0.06)",
+          "type": "color"
+        },
+        "interaction-activeOverlay": {
+          "value": "rgba(255,255,255,0.10)",
+          "type": "color"
+        },
+        "interaction-selectionBg": {
+          "value": "#573a5c",
+          "type": "color"
+        },
+        "interaction-focusRing": {
+          "value": "#7cb4e6",
+          "type": "color"
+        },
+        "overlay-scrim": {
+          "value": "rgba(10,10,14,0.72)",
+          "type": "color"
+        },
+        "scrollbar-track": {
+          "value": "#2e2f33",
+          "type": "color"
+        },
+        "scrollbar-thumb": {
+          "value": "#78787d",
+          "type": "color"
+        },
+        "scrollbar-thumbHover": {
+          "value": "#939398",
+          "type": "color"
+        },
+        "status-success-subtleBg": {
+          "value": "#161f00",
+          "type": "color"
+        },
+        "status-success-subtleBorder": {
+          "value": "#3e4e00",
+          "type": "color"
+        },
+        "status-success-subtleFg": {
+          "value": "#c2d19c",
+          "type": "color"
+        },
+        "status-success-solidBg": {
+          "value": "#a3b963",
+          "type": "color"
+        },
+        "status-success-solidFg": {
+          "value": "#1a1a1e",
+          "type": "color"
+        },
+        "status-warning-subtleBg": {
+          "value": "#261800",
+          "type": "color"
+        },
+        "status-warning-subtleBorder": {
+          "value": "#5c4200",
+          "type": "color"
+        },
+        "status-warning-subtleFg": {
+          "value": "#dac799",
+          "type": "color"
+        },
+        "status-warning-solidBg": {
+          "value": "#c8ab5d",
+          "type": "color"
+        },
+        "status-warning-solidFg": {
+          "value": "#1a1a1e",
+          "type": "color"
+        },
+        "status-danger-subtleBg": {
+          "value": "#39000d",
+          "type": "color"
+        },
+        "status-danger-subtleBorder": {
+          "value": "#80152d",
+          "type": "color"
+        },
+        "status-danger-subtleFg": {
+          "value": "#ffb1b6",
+          "type": "color"
+        },
+        "status-danger-solidBg": {
+          "value": "#fc8490",
+          "type": "color"
+        },
+        "status-danger-solidFg": {
+          "value": "#1a1a1e",
+          "type": "color"
+        },
+        "status-info-subtleBg": {
+          "value": "#011c33",
+          "type": "color"
+        },
+        "status-info-subtleBorder": {
+          "value": "#144974",
+          "type": "color"
+        },
+        "status-info-subtleFg": {
+          "value": "#abcdee",
+          "type": "color"
+        },
+        "status-info-solidBg": {
+          "value": "#7cb4e6",
+          "type": "color"
+        },
+        "status-info-solidFg": {
+          "value": "#1a1a1e",
+          "type": "color"
+        },
+        "chart-categorical-0": {
+          "value": "#c3a0c9",
+          "type": "color"
+        },
+        "chart-categorical-1": {
+          "value": "#82bda5",
+          "type": "color"
+        },
+        "chart-categorical-2": {
+          "value": "#e6996b",
+          "type": "color"
+        },
+        "chart-categorical-3": {
+          "value": "#a3b963",
+          "type": "color"
+        },
+        "chart-categorical-4": {
+          "value": "#c8ab5d",
+          "type": "color"
+        },
+        "chart-categorical-5": {
+          "value": "#fc8490",
+          "type": "color"
+        },
+        "chart-categorical-6": {
+          "value": "#7cb4e6",
+          "type": "color"
+        },
+        "chart-categorical-7": {
+          "value": "#d898b6",
+          "type": "color"
+        },
+        "chart-categorical-8": {
+          "value": "#a8a7e3",
+          "type": "color"
+        },
+        "chart-categorical-9": {
+          "value": "#cea66f",
+          "type": "color"
+        },
+        "chart-categorical-10": {
+          "value": "#96b996",
+          "type": "color"
+        },
+        "chart-categorical-11": {
+          "value": "#adadb2",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

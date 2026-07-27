@@ -1,0 +1,64 @@
+{
+  "name": "@belal/octagon-mist",
+  "version": "1.0.0",
+  "description": "Framework-agnostic design system with Filter Octagon (dark) and Minimal Mist (light) themes — OKLCH color ramps, semantic tokens, and 8 output formats",
+  "type": "module",
+  "main": "./css/tokens.css",
+  "style": "./css/tokens.css",
+  "bin": {
+    "octagon-mist": "./bin/cli.mjs"
+  },
+  "exports": {
+    ".": "./css/tokens.css",
+    "./css": "./css/tokens.css",
+    "./tailwind/v4": "./tailwind/theme.v4.css",
+    "./tailwind/v3": "./tailwind/tailwind.config.js",
+    "./scss": "./scss/_variables.scss",
+    "./tokens/primitives": "./tokens/primitives.json",
+    "./tokens/semantic": "./tokens/semantic.json",
+    "./style-dictionary": "./style-dictionary/tokens.style-dictionary.json",
+    "./figma": "./figma/figma-variables.json"
+  },
+  "files": [
+    "css",
+    "tailwind",
+    "scss",
+    "tokens",
+    "style-dictionary",
+    "figma",
+    "bin",
+    "README.md"
+  ],
+  "scripts": {
+    "generate": "node scripts/generate-colors.mjs",
+    "build": "node scripts/build-outputs.mjs",
+    "preview": "node scripts/build-preview.mjs",
+    "all": "node scripts/generate-colors.mjs && node scripts/build-outputs.mjs && node scripts/build-preview.mjs",
+    "prepublishOnly": "npm run all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/belal/octagon-mist.git"
+  },
+  "homepage": "https://github.com/belal/octagon-mist#readme",
+  "bugs": {
+    "url": "https://github.com/belal/octagon-mist/issues"
+  },
+  "keywords": [
+    "design-system",
+    "design-tokens",
+    "css-variables",
+    "dark-theme",
+    "light-theme",
+    "monokai",
+    "filter-octagon",
+    "oklch",
+    "tailwind",
+    "scss",
+    "style-dictionary",
+    "figma",
+    "color-system"
+  ],
+  "author": "belal",
+  "license": "MIT"
+}
