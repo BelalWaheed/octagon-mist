@@ -6,7 +6,7 @@
   "main": "./css/tokens.css",
   "style": "./css/tokens.css",
   "bin": {
-    "octagon-mist": "./bin/cli.mjs"
+    "octagon-mist": "bin/cli.mjs"
   },
   "exports": {
     ".": "./css/tokens.css",
@@ -38,7 +38,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BelalWaheed/octagon-mist.git"
+    "url": "git+https://github.com/BelalWaheed/octagon-mist.git"
   },
   "homepage": "https://github.com/BelalWaheed/octagon-mist#readme",
   "bugs": {
